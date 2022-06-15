@@ -1,0 +1,33 @@
+nav {
+  background: linear-gradient(90deg, indigo, aqua);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-brand img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(400%);
+  cursor: pointer;
+}
+nav .cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+nav .cart img {
+  width: 30px;
+  height: 30px;
+}
+nav .cart p {
+  position: absolute;
+  top: 1.3%;
+  right: 2%;
+  background-color: red;
+  padding: 2px 7px;
+  border-radius: 50px;
+  font-size: 15px;
+}

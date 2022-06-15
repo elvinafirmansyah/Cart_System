@@ -1,0 +1,13 @@
+.container_main {
+  margin: 20px 0;
+}
+.cart_btn {
+  margin: 7px 0;
+  background: linear-gradient(90deg, indigo, aqua);
+  cursor: pointer;
+}
+.container_card {
+  max-width: 1200px;
+  display: flex;
+}
+

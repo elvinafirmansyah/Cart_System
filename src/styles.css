@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fascinate", cursive;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.app .content {
+  padding: 0 20px;
+}
+button {
+  background-color: indigo;
+  outline: none;
+  color: white;
+  border: 0;
+  padding: 10px 12px;
+}
