@@ -4,15 +4,18 @@ import "./Style/cart.css";
 const Cart = ({ cart, setCart, handleChange }) => {
   const [price, setPrice] = useState(0);
 
+  const clearAll = () => {
+    setCart([])
+  }
   const handleRemove = (id) => {
     const hilang = cart.filter((item) => item.id !== id);
     setCart(hilang);
   };
 
   const handlePrice = () => {
-    let ans = 0;
-    cart.map((item) => (ans += item.total * item.price));
-    setPrice(ans);
+    let zero = 0;
+    cart.map((item) => (zero += item.total * item.price));
+    setPrice(zero);
   };
 
   useEffect(() => {
@@ -60,7 +63,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
         ))}
       </div>
       <div className="clear-section">
-        <button onClick={() => handleAll(cart)} className="clear_btn">
+        <button onClick={() => clearAll()} className="clear_btn">
           clear
         </button>
       </div>

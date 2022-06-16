@@ -15,11 +15,11 @@ const App = () => {
 
   const handleChange = (item, d) => {
     const index = cart.indexOf(item);
-    const arr = cart;
-    arr[index].total += d;
+    const addCart = cart;
+    addCart[index].total += d;
 
-    if (arr[index].total === 0) arr[index].total = 1;
-    setCart([...arr]);
+    if (addCart[index].total === 0) addCart[index].total = 1;
+    setCart([...addCart]);
   };
 
   return (
