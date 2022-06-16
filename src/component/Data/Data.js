@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     category: "Business",
-    price: 4,
+    price: 20,
     title: "Think and Grow Rich",
     img:
       "https://qph.fs.quoracdn.net/main-qimg-82bf4a8f5393f0055e61e1f52a5d3e13-lq",
@@ -11,7 +11,7 @@ const data = [
   {
     id: 2,
     category: "Computers & Tech",
-    price: 8,
+    price: 13,
     title: "Programming in Objective-C 2.0",
     img: "https://images-na.ssl-images-amazon.com/images/I/41M2GuGl44L.jpg",
     total: 1
@@ -19,7 +19,7 @@ const data = [
   {
     id: 3,
     category: "Business",
-    price: 5,
+    price: 42,
     title: "Dont Sweat the Small Stuff",
     img: "https://images-na.ssl-images-amazon.com/images/I/51yoISQV5gL.jpg",
     total: 1
@@ -27,7 +27,7 @@ const data = [
   {
     id: 4,
     category: "Science & Math",
-    price: 6,
+    price: 11,
     title: "The Omnivore Dilemma: A Natural History of Four Meals",
     img:
       "https://img.thriftbooks.com/api/images/l/d07dc11e0c9c2ae3eee3e05344585a3da2a8584b.jpg",
@@ -45,7 +45,7 @@ const data = [
   {
     id: 6,
     category: "Self-help",
-    price: 3,
+    price: 31,
     title: "Living Sober",
     img:
       "https://ebooks.gramedia.com/ebook-covers/47982/image_highres/ID_TGR2019MTH06TGR.jpg",
