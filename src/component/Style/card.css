@@ -6,8 +6,7 @@
   background: linear-gradient(90deg, indigo, aqua);
   cursor: pointer;
 }
-.container_card {
-  max-width: 1200px;
+.real-content {
   display: flex;
 }
 

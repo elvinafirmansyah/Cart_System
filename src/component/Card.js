@@ -11,7 +11,7 @@ const Rows = ({ item, handleClick }) => {
 
   return (
     <div className="container_card" style={containerCard}>
-      <div className="coba" style={{ paddingTop: "20px" }}>
+      <div className="coba" style={{ paddingTop: "10px" }}>
         <div className="real_content">
           <div className="img_box" style={{ paddingRight: "10px" }}>
             <img src={img} />
